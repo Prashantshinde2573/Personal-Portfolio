@@ -565,3 +565,15 @@ button,input,textarea{font:inherit;color:inherit}
 .foot2__form label{font-size:14.5px;margin-bottom:12px}
 .foot2__input input{height:50px}
 .foot2__input a{top:6px}
+
+/* ================= hero two-line headline ================= */
+.hero__h{font-size:clamp(36px,min(5.2vw,8vh),76px);line-height:1.04}
+.hero__l1,.hero__l2{display:block}
+.hero__l2{color:#8a8580}
+.hero__p{max-width:560px}
+@media(max-width:640px){.hero__h{font-size:clamp(32px,9vw,42px)}}
+.hero__center{max-width:1180px}
+.hero__p{max-width:600px}
+@media(min-width:900px){.hero__l1,.hero__l2{white-space:nowrap}}
+.nav a{white-space:nowrap}
+.hero__p{max-width:640px}

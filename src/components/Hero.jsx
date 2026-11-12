@@ -76,12 +76,13 @@ export default function Hero() {
 
         <div className="hero__center">
           <h1 className="hero__h">
-            <SplitWords text="Websites & Apps Built For Your Business" delay={0.3} stagger={0.07} />
+            <SplitWords className="hero__l1" text="AI Can Build a Website." delay={0.3} stagger={0.07} />
+            <SplitWords className="hero__l2" text="But Can It Build Your Business?" delay={0.65} stagger={0.07} />
           </h1>
-          <motion.p className="hero__p" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.8, duration: 0.9, ease: EASE }}>
-            From Shopify stores to full restaurant software, I build custom websites and business apps around how you work, made to win you more customers.
+          <motion.p className="hero__p" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.1, duration: 0.9, ease: EASE }}>
+            Anyone can generate a website today. But building one that performs is different. I create websites and custom apps engineered for speed, security, seamless user experiences, and real business growth.
           </motion.p>
-          <motion.div className="hero__cta" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.95, duration: 0.9, ease: EASE }}>
+          <motion.div className="hero__cta" initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.25, duration: 0.9, ease: EASE }}>
             <Magnetic><A href="#contact" className="btn btn-black btn-lg">Book a free call <ArrowRight /></A></Magnetic>
           </motion.div>
         </div>
